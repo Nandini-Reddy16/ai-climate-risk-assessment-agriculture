@@ -1,36 +1,65 @@
-# ai-climate-risk-assessment-agriculture
-AI-powered system that analyzes climate trends, identifies agricultural risks, and provides assistive planning using RAG and IBM Granite models.
+# AI-Assisted Precision Irrigation Monitoring System
 
-# AI-Based Climate Risk Assessment for Agriculture
+# Problem Statement
 
-## Overview
-This project is an AI-powered system that analyzes climate trends, identifies climate-related risks, and provides assistive planning insights for agriculture.
+Inefficient irrigation practices cause water wastage, crop stress, and reduced productivity. Farmers often lack continuous insights into soil moisture dynamics and crop water requirements. Manual irrigation decisions may not adapt to changing weather and soil conditions. There is a need for an intelligent assistive system that can analyze irrigation-related data and support water-efficient farming practices.
 
-## Problem Statement
-Climate variability such as irregular rainfall and rising temperatures affects agricultural productivity. Farmers and planners need intelligent tools to interpret climate data at a local level.
+# Solution Overview
 
-## Solution
-The system uses an agent-based architecture built with LangFlow and IBM Granite models to:
-- Analyze climate trends
-- Detect agricultural climate risks
-- Provide assistive planning insights
+The AI-Assisted Precision Irrigation Monitoring System is designed to help farmers make informed irrigation decisions by leveraging real-time and historical data. The system uses intelligent agents to monitor soil and weather conditions, detect water stress, and provide actionable irrigation guidance.
 
-## Key Components
-- Climate Trend Analysis
-- Climate Risk Detection
-- Assistive Advisory System
+# Key Components
 
-## Technologies Used
-- LangFlow
-- IBM Granite LLM (Watsonx)
-- Retrieval-Augmented Generation (RAG)
-- Search API
+1.Soil & Weather Data Analysis Agent
 
-## Role of RAG
-RAG is used to retrieve climate-smart agriculture guidelines and policy documents, grounding the AI responses in reliable external knowledge.
+  Processes soil moisture, evapotranspiration, rainfall, and crop growth stage data
 
-## Outcome
-Supports climate-resilient agricultural planning and informed decision-making.
+  Generates irrigation-relevant insights for decision-making
 
-## Disclaimer
-This system provides assistive insights only and does not replace expert agricultural advice.
+2.Water Stress Detection Agent
+
+  Identifies patterns of under-irrigation or over-irrigation
+
+  Uses historical and seasonal baselines for accurate stress detection
+
+3.Irrigation Advisory Assistant
+
+  Provides water-efficiency recommendations and irrigation scheduling advice
+
+  Assistive guidance only; does not perform automated irrigation control
+
+# Outcomes
+
+Promotes efficient water use
+
+Reduces resource wastage
+
+Supports sustainable irrigation practices
+
+# Technology Stack
+
+LangFlow: Workflow orchestration
+
+IBM Granite Model: AI model for data processing and analysis
+
+RAG (Retrieval-Augmented Generation): Leverages irrigation guidelines and sustainable water management frameworks
+
+# Features
+
+AI-driven irrigation monitoring
+
+Predictive insights for water stress
+
+Data-driven irrigation recommendations
+
+Non-invasive assistive guidance to support farmer decisions
+
+# Getting Started
+
+Clone this repository
+
+Install dependencies and set up LangFlow environment
+
+Configure IBM Granite Model and integrate irrigation datasets
+
+Run the system to start receiving irrigation insights
